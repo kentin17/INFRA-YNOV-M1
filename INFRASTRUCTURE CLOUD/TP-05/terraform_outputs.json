@@ -1,0 +1,4 @@
+{
+        "bastion_public_ip": "51.20.121.9",
+        "nextcloud_private_ip": "10.0.4.210"
+      }
