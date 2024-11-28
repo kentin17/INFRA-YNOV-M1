@@ -13,3 +13,7 @@ output "cloud9_ip" {
   description = "Public IP address of the Cloud9 instance with Owner = qvos"
   value       = local.cloud9_ip
 }
+
+output "nextcloud_rds_endpoint" {
+  value = aws_db_instance.nextcloud_rds.endpoint
+}
